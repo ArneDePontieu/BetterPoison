@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.BetterPoison.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\bij75\OneDrive\Documenten\Valheim Modding\BetterPoison\.idea\.idea.BetterPoison\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
