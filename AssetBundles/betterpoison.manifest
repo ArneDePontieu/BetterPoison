@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2655409081
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e44cd40defcc15b783cd3ccd453f9dba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cea4de53ea9b3964b25903a9b07db905
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5990941a66c78aa47b482f74529905ef, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Mock/BetterPoison_Icon.png
+- Assets/Mock/BetterPoison.asset
+Dependencies: []

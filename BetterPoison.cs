@@ -1,7 +1,10 @@
 ﻿using BepInEx;
+using BetterPoison.StatusEffects.BetterPoison;
+using BetterPoison.Utility;
 
 namespace BetterPoison
 {
+    [BepInDependency(ValheimLib.ValheimLib.ModGuid, BepInDependency.DependencyFlags.HardDependency)]
     [BepInPlugin(ModGuid, ModName, ModVer)]
     public class BetterPoison : BaseUnityPlugin
     {
@@ -18,6 +21,10 @@ namespace BetterPoison
 
             Initializer.Initialize();
             BetterPoisonConfig.Initialize(Config);
+
+            CustomAssetHelper.Init();
+
+            ItemData.Init();
         }
 
         private void OnDestroy()
